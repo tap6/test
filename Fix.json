@@ -1,0 +1,39 @@
+{
+    "title": "修复插件",
+    "option": [
+			{
+				"type": "checkbox",
+				"skin": "primary",
+				"id": "30秒编译限制",
+				"label": "去除30秒编译限制",
+				"a": {
+					"label": "查看",
+					"href": "http://e.125.la/e.php?demo=d5",
+					"placeholder": "点击查看效果"
+				}
+			}, {
+				"type": "checkbox",
+				"skin": "primary",
+				"id": "输出调试文本长度限制",
+				"label": "修复 [输出调试文本] 长度限制（如输出内容过长，可能会引起卡顿）"
+			}, {
+				"type": "checkbox",
+				"skin": "primary",
+				"id": "启动假死",
+				"label": "修复后台残留进程卡死新启动易语言问题，建议保持开启。",
+				"checked": "checked"
+			}, {
+				"type": "checkbox",
+				"skin": "primary",
+				"id": "常量编辑控件输入文本的长度限制",
+				"label": "解除常量编辑控件输入文本不能大于30000的长度限制",
+				"checked": "checked"
+			}, {
+				"type": "checkbox",
+				"skin": "primary",
+				"id": "变量粘贴格式错误",
+				"label": "[测试功能]修复无法正确粘贴【程序集变量】【全局变量】【类私有成员】的问题。",
+				"restart" : "restart"
+			}
+	]
+}
